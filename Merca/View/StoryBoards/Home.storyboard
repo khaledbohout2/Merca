@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="Rjq-ge-zCq">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="zBj-sC-c6h" customClass="HomeVC" customModule="Merca" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gsl-zR-SHD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kKB-gb-svF">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MEU-ND-8WD">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="MEU-ND-8WD" secondAttribute="bottom" id="30b-Rl-Smp"/>
+                                    <constraint firstItem="MEU-ND-8WD" firstAttribute="leading" secondItem="kKB-gb-svF" secondAttribute="leading" id="CXw-eK-gcK"/>
+                                    <constraint firstAttribute="trailing" secondItem="MEU-ND-8WD" secondAttribute="trailing" id="Pt8-Q8-Mi8"/>
+                                    <constraint firstItem="MEU-ND-8WD" firstAttribute="top" secondItem="kKB-gb-svF" secondAttribute="top" id="wpm-Rj-rsX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="abg-Eq-cJT"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="kKB-gb-svF" secondAttribute="bottom" id="14g-tx-2Xg"/>
+                            <constraint firstItem="kKB-gb-svF" firstAttribute="leading" secondItem="abg-Eq-cJT" secondAttribute="leading" id="Cmf-nM-1V5"/>
+                            <constraint firstItem="kKB-gb-svF" firstAttribute="top" secondItem="abg-Eq-cJT" secondAttribute="top" id="fbk-4m-62q"/>
+                            <constraint firstItem="abg-Eq-cJT" firstAttribute="trailing" secondItem="kKB-gb-svF" secondAttribute="trailing" id="qxN-QH-mrg"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="homeTableView" destination="MEU-ND-8WD" id="EVr-NU-gWn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HKQ-es-gGf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20.800000000000001" y="62.807881773399018"/>
+        </scene>
+        <!--CategoriesVC-->
+        <scene sceneID="6u0-2m-hVT">
+            <objects>
+                <viewController storyboardIdentifier="CategoriesVC" id="PtR-av-sZH" customClass="CategoriesVC" customModule="Merca" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MHT-sM-YtV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qL4-8a-09u">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SmB-1M-R2n">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="SmB-1M-R2n" firstAttribute="leading" secondItem="qL4-8a-09u" secondAttribute="leading" id="AUn-mW-ytj"/>
+                                    <constraint firstAttribute="bottom" secondItem="SmB-1M-R2n" secondAttribute="bottom" id="Jag-1Y-Ppc"/>
+                                    <constraint firstItem="SmB-1M-R2n" firstAttribute="top" secondItem="qL4-8a-09u" secondAttribute="top" id="dD7-US-fJu"/>
+                                    <constraint firstAttribute="trailing" secondItem="SmB-1M-R2n" secondAttribute="trailing" id="eIQ-o6-cwp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="It9-bq-Nop"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="It9-bq-Nop" firstAttribute="trailing" secondItem="qL4-8a-09u" secondAttribute="trailing" id="DEE-8e-fV3"/>
+                            <constraint firstItem="qL4-8a-09u" firstAttribute="top" secondItem="It9-bq-Nop" secondAttribute="top" id="Ffu-5U-ch6"/>
+                            <constraint firstAttribute="bottom" secondItem="qL4-8a-09u" secondAttribute="bottom" id="d1Y-yh-2r4"/>
+                            <constraint firstItem="qL4-8a-09u" firstAttribute="leading" secondItem="It9-bq-Nop" secondAttribute="leading" id="oLu-SU-1p4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="categoriesTableView" destination="SmB-1M-R2n" id="T9H-OZ-ZYA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hHS-WF-P8i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="742.02898550724649" y="64.955357142857139"/>
+        </scene>
+        <!--Sub CategoriesVC-->
+        <scene sceneID="8Uf-Ku-Y8D">
+            <objects>
+                <viewController storyboardIdentifier="SubCategoriesVC" id="Ptq-rr-nkk" customClass="SubCategoriesVC" customModule="Merca" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5sR-82-hil">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kls-X9-Ati">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lBY-nU-BQh">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="16" minimumInteritemSpacing="16" id="DPT-oK-E6p">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                    </collectionView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="lBY-nU-BQh" firstAttribute="leading" secondItem="kls-X9-Ati" secondAttribute="leading" id="Cet-fZ-36N"/>
+                                    <constraint firstAttribute="trailing" secondItem="lBY-nU-BQh" secondAttribute="trailing" id="LKc-gv-oX4"/>
+                                    <constraint firstAttribute="bottom" secondItem="lBY-nU-BQh" secondAttribute="bottom" id="QKd-xe-4Lm"/>
+                                    <constraint firstItem="lBY-nU-BQh" firstAttribute="top" secondItem="kls-X9-Ati" secondAttribute="top" id="Shr-yK-AVj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pmG-WF-2sh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pmG-WF-2sh" firstAttribute="trailing" secondItem="kls-X9-Ati" secondAttribute="trailing" id="3oA-As-RIt"/>
+                            <constraint firstItem="kls-X9-Ati" firstAttribute="top" secondItem="pmG-WF-2sh" secondAttribute="top" id="3wY-jQ-5d0"/>
+                            <constraint firstItem="kls-X9-Ati" firstAttribute="leading" secondItem="pmG-WF-2sh" secondAttribute="leading" id="Bpm-zW-18d"/>
+                            <constraint firstItem="pmG-WF-2sh" firstAttribute="bottom" secondItem="kls-X9-Ati" secondAttribute="bottom" id="e6C-YL-eFL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="subCategoriesCollectionView" destination="lBY-nU-BQh" id="0Bi-6k-yRL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="feR-fz-eDl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1490" y="65"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

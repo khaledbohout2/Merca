@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SubCategoryCollectionView" customModule="Merca" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="165" height="198"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="165" height="198"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DfA-XN-zGi">
+                        <rect key="frame" x="0.0" y="0.0" width="165" height="198"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beautiful-flowering-vase-white-table" translatesAutoresizingMaskIntoConstraints="NO" id="tfg-M9-FRw">
+                                <rect key="frame" x="0.0" y="0.0" width="165" height="165"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tfg-M9-FRw" secondAttribute="height" multiplier="1:1" id="PlL-S3-c83"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="flower vase" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llV-08-7Bq">
+                                <rect key="frame" x="0.0" y="175" width="165" height="23"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="10"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tfg-M9-FRw" secondAttribute="trailing" id="4nh-22-3pt"/>
+                            <constraint firstItem="tfg-M9-FRw" firstAttribute="leading" secondItem="DfA-XN-zGi" secondAttribute="leading" id="5br-5H-Vb7"/>
+                            <constraint firstItem="llV-08-7Bq" firstAttribute="top" secondItem="tfg-M9-FRw" secondAttribute="bottom" constant="10" id="HJh-GA-vcd"/>
+                            <constraint firstItem="llV-08-7Bq" firstAttribute="leading" secondItem="DfA-XN-zGi" secondAttribute="leading" id="Kri-IN-6Zq"/>
+                            <constraint firstItem="tfg-M9-FRw" firstAttribute="top" secondItem="DfA-XN-zGi" secondAttribute="top" id="XUk-cu-Gid"/>
+                            <constraint firstAttribute="trailing" secondItem="llV-08-7Bq" secondAttribute="trailing" id="jxj-AS-f45"/>
+                            <constraint firstAttribute="bottom" secondItem="llV-08-7Bq" secondAttribute="bottom" id="obZ-01-2Vu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DfA-XN-zGi" secondAttribute="trailing" id="72u-nf-Rb5"/>
+                <constraint firstAttribute="bottom" secondItem="DfA-XN-zGi" secondAttribute="bottom" id="9im-Ob-QUt"/>
+                <constraint firstItem="DfA-XN-zGi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BRy-oq-9Ld"/>
+                <constraint firstItem="DfA-XN-zGi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="oYb-TP-mnc"/>
+            </constraints>
+            <size key="customSize" width="178" height="149"/>
+            <point key="canvasLocation" x="71.739130434782609" y="86.383928571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="beautiful-flowering-vase-white-table" width="164" height="164"/>
+    </resources>
+</document>
