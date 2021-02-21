@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SubCategorySliderCollectionViewCell" customModule="Merca" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="216" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="216" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MuK-A8-CEx">
+                        <rect key="frame" x="0.0" y="0.0" width="216" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All flowers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhB-Es-7dk">
+                                <rect key="frame" x="0.0" y="0.0" width="216" height="80"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                                <color key="textColor" red="0.72156862745098038" green="0.72156862745098038" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="QhB-Es-7dk" firstAttribute="leading" secondItem="MuK-A8-CEx" secondAttribute="leading" id="IUZ-3h-tnO"/>
+                            <constraint firstItem="QhB-Es-7dk" firstAttribute="top" secondItem="MuK-A8-CEx" secondAttribute="top" id="Jcl-eq-g3b"/>
+                            <constraint firstAttribute="trailing" secondItem="QhB-Es-7dk" secondAttribute="trailing" id="UAe-7b-3ft"/>
+                            <constraint firstAttribute="bottom" secondItem="QhB-Es-7dk" secondAttribute="bottom" id="wby-R7-NRG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="MuK-A8-CEx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EC9-xd-dT3"/>
+                <constraint firstAttribute="bottom" secondItem="MuK-A8-CEx" secondAttribute="bottom" id="Egc-QB-gTw"/>
+                <constraint firstItem="MuK-A8-CEx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Kij-Mp-4oK"/>
+                <constraint firstAttribute="trailing" secondItem="MuK-A8-CEx" secondAttribute="trailing" id="nAE-F1-eRP"/>
+            </constraints>
+            <size key="customSize" width="216" height="80"/>
+            <point key="canvasLocation" x="8.6956521739130448" y="63.616071428571423"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -46,9 +46,13 @@ extension SubCategoriesVC: UICollectionViewDelegate, UICollectionViewDataSource,
         return CGSize (width: (Int((collectionView.frame.width)) - 16) / 2, height: (Int((collectionView.frame.width)) - 16) / 2)
     }
     
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        
-//    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let storyBoard = UIStoryboard(name: "Home", bundle: nil)
+        let subCategoryItemsList = storyBoard.instantiateViewController(identifier: "SubCategoryItemsList")
+        self.navigationController?.pushViewController(subCategoryItemsList, animated: true)
+        
+    }
     
     
     
