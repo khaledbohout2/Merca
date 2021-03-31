@@ -1,2 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-Merca/Pods-Merca-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CollectionViewPagingLayout/CollectionViewPagingLayout.framework
+${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework
 ${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework
+${BUILT_PRODUCTS_DIR}/ScaledCenterCarouselSwift/ScaledCenterCarouselSwift.framework

@@ -9,6 +9,7 @@ import UIKit
 
 class SubCategorySliderCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var subCategoryNameLbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

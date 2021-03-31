@@ -7,5 +7,8 @@ target 'Merca' do
 
   # Pods for Merca
 pod 'IBAnimatable'
+pod 'Cosmos', '~> 23.0'
+pod 'CollectionViewPagingLayout'
+pod "ScaledCenterCarouselSwift"
 
 end

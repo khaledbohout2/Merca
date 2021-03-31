@@ -38,12 +38,13 @@ extension SubCategoriesVC: UICollectionViewDelegate, UICollectionViewDataSource,
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SubCategoryCollectionView", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SubCategoryCollectionView", for: indexPath) as! SubCategoryCollectionView
+        cell.subCategoryNameLbl.font = UIFont(name: "Montserrat-Medium", size: 16)
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize (width: (Int((collectionView.frame.width)) - 16) / 2, height: (Int((collectionView.frame.width)) - 16) / 2)
+        return CGSize (width: (Int((collectionView.frame.width)) - 15) / 2, height: (Int(((collectionView.frame.width)) - 15) / 2) + 33)
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

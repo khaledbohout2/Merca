@@ -49,6 +49,9 @@
                 <constraint firstAttribute="trailing" secondItem="MuK-A8-CEx" secondAttribute="trailing" id="nAE-F1-eRP"/>
             </constraints>
             <size key="customSize" width="216" height="80"/>
+            <connections>
+                <outlet property="subCategoryNameLbl" destination="QhB-Es-7dk" id="lNT-2D-Suu"/>
+            </connections>
             <point key="canvasLocation" x="8.6956521739130448" y="63.616071428571423"/>
         </collectionViewCell>
     </objects>

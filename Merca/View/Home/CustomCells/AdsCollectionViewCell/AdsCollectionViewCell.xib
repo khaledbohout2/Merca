@@ -17,8 +17,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="240" height="138"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="19406492" translatesAutoresizingMaskIntoConstraints="NO" id="rHw-Ei-qJw">
-                        <rect key="frame" x="16" y="8" width="224" height="122"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 52295" translatesAutoresizingMaskIntoConstraints="NO" id="rHw-Ei-qJw">
+                        <rect key="frame" x="16" y="8" width="216" height="122"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                 <real key="value" value="24"/>
@@ -29,7 +29,7 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="rHw-Ei-qJw" secondAttribute="trailing" id="7MT-di-rk3"/>
+                <constraint firstAttribute="trailing" secondItem="rHw-Ei-qJw" secondAttribute="trailing" constant="8" id="7MT-di-rk3"/>
                 <constraint firstItem="rHw-Ei-qJw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="B0E-Ao-sCH"/>
                 <constraint firstItem="rHw-Ei-qJw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="Q8S-yV-Ajg"/>
                 <constraint firstAttribute="bottom" secondItem="rHw-Ei-qJw" secondAttribute="bottom" constant="8" id="aBr-ch-m4Y"/>
@@ -42,6 +42,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="19406492" width="238" height="178"/>
+        <image name="Group 52295" width="343" height="174"/>
     </resources>
 </document>

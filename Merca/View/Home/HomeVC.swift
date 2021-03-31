@@ -20,6 +20,9 @@ class HomeVC: UIViewController {
         
         addMockingData()
         setUpTableView()
+        
+        self.navigationController?.navigationBar.isHidden = false
+        self.tabBarController?.tabBar.isHidden = false
 
         // Do any additional setup after loading the view.
     }
@@ -91,7 +94,7 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
             
         } else if type == "occasions" {
             
-            return (tableView.frame.width / 1.5) + 45
+            return (tableView.frame.width / 2.2) + 45
             
         } else {
             
@@ -116,6 +119,26 @@ extension HomeVC: HomeTableViewCellDelegate {
             let categoriesVC = storyBoard.instantiateViewController(identifier: "CategoriesVC")
             
             self.navigationController?.pushViewController(categoriesVC, animated: true)
+            
+        } else if type == "stores" {
+        
+            let storyBoard = UIStoryboard(name: "Home", bundle: nil)
+            
+            let storesListVC = storyBoard.instantiateViewController(identifier: "StoresListVC") as! StoresListVC
+            
+            self.navigationController?.pushViewController(storesListVC, animated: true)
+            
+        } else if type == "occasions" {
+            
+            let storyBoard = UIStoryboard(name: "Home", bundle: nil)
+            
+            let occasionsVC = storyBoard.instantiateViewController(identifier: "OccasionsVC") as! OccasionsVC
+            
+            self.navigationController?.pushViewController(occasionsVC, animated: true)
+            
+        } else if type == "items" {
+            
+
         }
     }
     

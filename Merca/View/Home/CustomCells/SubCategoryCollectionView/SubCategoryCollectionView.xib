@@ -59,6 +59,10 @@
                 <constraint firstItem="DfA-XN-zGi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="oYb-TP-mnc"/>
             </constraints>
             <size key="customSize" width="178" height="149"/>
+            <connections>
+                <outlet property="bannerImageView" destination="tfg-M9-FRw" id="3DO-HL-SCz"/>
+                <outlet property="subCategoryNameLbl" destination="llV-08-7Bq" id="P5r-vS-NtT"/>
+            </connections>
             <point key="canvasLocation" x="71.739130434782609" y="86.383928571428569"/>
         </collectionViewCell>
     </objects>

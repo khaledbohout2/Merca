@@ -63,6 +63,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Montserrat-Medium.ttf</string>
+		<string>NunitoSans-Regular.ttf</string>
 	</array>
 </dict>
 </plist>

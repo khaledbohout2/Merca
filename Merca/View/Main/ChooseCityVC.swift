@@ -127,7 +127,7 @@ class ChooseCityVC: UIViewController {
     @IBAction func confirmBtnTapped(_ sender: Any) {
         
         let storyBoard = UIStoryboard(name: "Home", bundle: nil)
-        let homeVC = storyBoard.instantiateViewController(identifier: "HomeVC")
+        let homeVC = storyBoard.instantiateViewController(identifier: "HomeTBC")
         self.navigationController?.pushViewController(homeVC, animated: true)
     }
     

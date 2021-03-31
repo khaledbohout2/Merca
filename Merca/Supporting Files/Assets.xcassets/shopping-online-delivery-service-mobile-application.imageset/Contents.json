@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "shopping-online-delivery-service-mobile-application.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "shopping-online-delivery-service-mobile-application@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "shopping-online-delivery-service-mobile-application@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -8,6 +8,11 @@
 import UIKit
 
 class SubCategoryCollectionView: UICollectionViewCell {
+    
+    @IBOutlet weak var subCategoryNameLbl: UILabel!
+    
+    @IBOutlet weak var bannerImageView: UIImageView!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

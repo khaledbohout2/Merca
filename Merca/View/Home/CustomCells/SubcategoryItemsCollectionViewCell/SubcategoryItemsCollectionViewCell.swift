@@ -8,6 +8,8 @@
 import UIKit
 
 class SubcategoryItemsCollectionViewCell: UICollectionViewCell {
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
