@@ -11,5 +11,6 @@ pod 'Cosmos', '~> 23.0'
 pod 'CollectionViewPagingLayout'
 pod "ScaledCenterCarouselSwift"
 pod 'LTHRadioButton'
+pod 'SkyFloatingLabelTextField', '~> 3.0'
 
 end

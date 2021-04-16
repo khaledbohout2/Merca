@@ -1,16 +1,36 @@
 PODS:
+  - CollectionViewPagingLayout (0.4.0)
+  - Cosmos (23.0.0)
   - IBAnimatable (6.1.0)
+  - LTHRadioButton (1.2.3)
+  - ScaledCenterCarouselSwift (1.0.0)
+  - SkyFloatingLabelTextField (3.8.0)
 
 DEPENDENCIES:
+  - CollectionViewPagingLayout
+  - Cosmos (~> 23.0)
   - IBAnimatable
+  - LTHRadioButton
+  - ScaledCenterCarouselSwift
+  - SkyFloatingLabelTextField (~> 3.0)
 
 SPEC REPOS:
   trunk:
+    - CollectionViewPagingLayout
+    - Cosmos
     - IBAnimatable
+    - LTHRadioButton
+    - ScaledCenterCarouselSwift
+    - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
+  CollectionViewPagingLayout: 38b1bd88c6b61bfa9a92c03d13189fe808953559
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
   IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  LTHRadioButton: b20980614572f7911272a6b8aa79ec0fdc9a74d4
+  ScaledCenterCarouselSwift: 45b7879b3965da266a37c630c50b540b64d78fdc
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
 
-PODFILE CHECKSUM: 08ed0f704d670df441f8ec3e600085a387450953
+PODFILE CHECKSUM: da3381649174cea46918dcf8cfd24a44c639b832
 
 COCOAPODS: 1.10.0

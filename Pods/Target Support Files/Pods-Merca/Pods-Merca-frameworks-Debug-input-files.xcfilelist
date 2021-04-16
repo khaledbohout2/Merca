@@ -4,3 +4,4 @@ ${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework
 ${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework
 ${BUILT_PRODUCTS_DIR}/LTHRadioButton/LTHRadioButton.framework
 ${BUILT_PRODUCTS_DIR}/ScaledCenterCarouselSwift/ScaledCenterCarouselSwift.framework
+${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework
