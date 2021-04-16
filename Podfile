@@ -10,5 +10,6 @@ pod 'IBAnimatable'
 pod 'Cosmos', '~> 23.0'
 pod 'CollectionViewPagingLayout'
 pod "ScaledCenterCarouselSwift"
+pod 'LTHRadioButton'
 
 end

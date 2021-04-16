@@ -1,10 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CollectionViewPagingLayout" "${PODS_CONFIGURATION_BUILD_DIR}/Cosmos" "${PODS_CONFIGURATION_BUILD_DIR}/IBAnimatable" "${PODS_CONFIGURATION_BUILD_DIR}/ScaledCenterCarouselSwift"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CollectionViewPagingLayout" "${PODS_CONFIGURATION_BUILD_DIR}/Cosmos" "${PODS_CONFIGURATION_BUILD_DIR}/IBAnimatable" "${PODS_CONFIGURATION_BUILD_DIR}/LTHRadioButton" "${PODS_CONFIGURATION_BUILD_DIR}/ScaledCenterCarouselSwift"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Cosmos/Cosmos.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IBAnimatable/IBAnimatable.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ScaledCenterCarouselSwift/ScaledCenterCarouselSwift.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Cosmos/Cosmos.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IBAnimatable/IBAnimatable.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LTHRadioButton/LTHRadioButton.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ScaledCenterCarouselSwift/ScaledCenterCarouselSwift.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "CollectionViewPagingLayout" -framework "Cosmos" -framework "IBAnimatable" -framework "ScaledCenterCarouselSwift" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -framework "CollectionViewPagingLayout" -framework "Cosmos" -framework "IBAnimatable" -framework "LTHRadioButton" -framework "ScaledCenterCarouselSwift" -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
