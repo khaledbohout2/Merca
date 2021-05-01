@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="UserAddressesTableViewCell" customModule="Merca" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G3U-HD-J5d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almantaqa Alawla , Mohamed Fahmy, Building: 30 floor: 4, Apartment: 8" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86A-IY-qMl">
+                                <rect key="frame" x="24" y="24" width="279" height="66"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
+                                <color key="textColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcj-lN-nkq">
+                                <rect key="frame" x="323" y="24" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="Sjb-nz-kZw"/>
+                                    <constraint firstAttribute="width" constant="14" id="fS7-Fo-osJ"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="edit"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckm-EJ-Sk9">
+                                <rect key="frame" x="323" y="72" width="14" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="qXF-kX-PgR"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="delete"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcj-lN-nkq" firstAttribute="top" secondItem="86A-IY-qMl" secondAttribute="top" id="2yB-ld-Nwr"/>
+                            <constraint firstItem="Ckm-EJ-Sk9" firstAttribute="bottom" secondItem="86A-IY-qMl" secondAttribute="bottom" id="3Ot-rJ-xH2"/>
+                            <constraint firstItem="Bcj-lN-nkq" firstAttribute="leading" secondItem="86A-IY-qMl" secondAttribute="trailing" constant="20" id="3ua-pF-xrr"/>
+                            <constraint firstItem="86A-IY-qMl" firstAttribute="top" secondItem="G3U-HD-J5d" secondAttribute="top" constant="24" id="KoM-3e-LUL"/>
+                            <constraint firstItem="Ckm-EJ-Sk9" firstAttribute="trailing" secondItem="Bcj-lN-nkq" secondAttribute="trailing" id="PtN-CI-ZOc"/>
+                            <constraint firstAttribute="trailing" secondItem="86A-IY-qMl" secondAttribute="trailing" constant="72" id="RGG-Dl-QMS"/>
+                            <constraint firstItem="86A-IY-qMl" firstAttribute="leading" secondItem="G3U-HD-J5d" secondAttribute="leading" constant="24" id="RQ8-rQ-cFe"/>
+                            <constraint firstItem="Ckm-EJ-Sk9" firstAttribute="leading" secondItem="Bcj-lN-nkq" secondAttribute="leading" id="kNw-GP-caN"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="G3U-HD-J5d" secondAttribute="bottom" id="9L5-ei-Y9m"/>
+                    <constraint firstItem="G3U-HD-J5d" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="PRo-pd-2pE"/>
+                    <constraint firstItem="G3U-HD-J5d" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="iD2-70-cQW"/>
+                    <constraint firstAttribute="trailing" secondItem="G3U-HD-J5d" secondAttribute="trailing" id="vh4-Rf-ocW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-22" y="78"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delete" width="15" height="18"/>
+        <image name="edit" width="17.5" height="17.5"/>
+    </resources>
+</document>

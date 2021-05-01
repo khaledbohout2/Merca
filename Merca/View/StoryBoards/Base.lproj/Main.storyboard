@@ -711,7 +711,7 @@
                                                 </state>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhS-fH-uuz" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                <rect key="frame" x="24" y="111.66666666666666" width="326" height="65"/>
+                                                <rect key="frame" x="25" y="111.66666666666666" width="325" height="65"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="f5G-6V-mPA"/>
                                                 </constraints>
@@ -734,7 +734,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TkH-Bd-2Y1" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                <rect key="frame" x="24" y="216.66666666666669" width="326" height="65"/>
+                                                <rect key="frame" x="25" y="216.66666666666669" width="325" height="65"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="cbj-sl-oF0"/>
                                                 </constraints>
@@ -757,7 +757,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GxM-qN-HPR" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                <rect key="frame" x="24" y="321.66666666666669" width="326" height="65"/>
+                                                <rect key="frame" x="25" y="321.66666666666669" width="325" height="65"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="X31-B0-55X"/>
                                                 </constraints>
@@ -780,7 +780,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Unz-ov-RpJ" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                <rect key="frame" x="24" y="426.66666666666663" width="326" height="65"/>
+                                                <rect key="frame" x="25" y="426.66666666666663" width="325" height="65"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="eJE-Qh-bC7"/>
                                                 </constraints>
@@ -812,7 +812,7 @@
                                                 <state key="normal" title="Button" image="eye.fill" catalog="system"/>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FzL-Vo-UFd">
-                                                <rect key="frame" x="24" y="524.66666666666663" width="12" height="12"/>
+                                                <rect key="frame" x="25" y="524.66666666666663" width="12" height="12"/>
                                                 <color key="backgroundColor" red="0.0" green="0.75686274509803919" blue="0.69803921568627447" alpha="0.5" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="12" id="BQO-2o-BAF"/>
@@ -825,7 +825,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I accept all Terms &amp; conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ZK-5s-dJO">
-                                                <rect key="frame" x="46.000000000000014" y="522.66666666666663" width="194.33333333333337" height="16"/>
+                                                <rect key="frame" x="47.000000000000014" y="522.66666666666663" width="194.33333333333337" height="16"/>
                                                 <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="13"/>
                                                 <color key="textColor" red="0.69411764705882351" green="0.69411764705882351" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -867,6 +867,7 @@
                                             <constraint firstItem="Unz-ov-RpJ" firstAttribute="trailing" secondItem="GxM-qN-HPR" secondAttribute="trailing" id="ZYn-Wi-o2m"/>
                                             <constraint firstItem="m3N-rs-9tj" firstAttribute="top" secondItem="Nrg-vj-Awj" secondAttribute="top" constant="40" id="bmy-to-AlT"/>
                                             <constraint firstItem="5ZK-5s-dJO" firstAttribute="leading" secondItem="FzL-Vo-UFd" secondAttribute="trailing" constant="10" id="eRN-Yf-H1A"/>
+                                            <constraint firstItem="VhS-fH-uuz" firstAttribute="leading" secondItem="Nrg-vj-Awj" secondAttribute="leading" constant="25" id="eoe-Ii-shs"/>
                                             <constraint firstAttribute="trailing" secondItem="kFQ-QS-Niz" secondAttribute="trailing" constant="35" id="gLE-fC-UuR"/>
                                             <constraint firstItem="TkH-Bd-2Y1" firstAttribute="trailing" secondItem="VhS-fH-uuz" secondAttribute="trailing" id="jia-Hg-dW9"/>
                                             <constraint firstItem="LnA-A9-7yB" firstAttribute="leading" secondItem="Nrg-vj-Awj" secondAttribute="leading" constant="50" id="mtI-JZ-up6"/>
@@ -930,16 +931,16 @@
     </scenes>
     <designables>
         <designable name="GxM-qN-HPR">
-            <size key="intrinsicContentSize" width="326" height="44.455671875"/>
+            <size key="intrinsicContentSize" width="325" height="44.455671875"/>
         </designable>
         <designable name="TkH-Bd-2Y1">
-            <size key="intrinsicContentSize" width="326" height="44.455671875"/>
+            <size key="intrinsicContentSize" width="325" height="44.455671875"/>
         </designable>
         <designable name="Unz-ov-RpJ">
-            <size key="intrinsicContentSize" width="326" height="44.455671875"/>
+            <size key="intrinsicContentSize" width="325" height="44.455671875"/>
         </designable>
         <designable name="VhS-fH-uuz">
-            <size key="intrinsicContentSize" width="326" height="44.455671875"/>
+            <size key="intrinsicContentSize" width="325" height="44.455671875"/>
         </designable>
         <designable name="XCu-r2-f2R">
             <size key="intrinsicContentSize" width="326" height="44.455671875"/>
